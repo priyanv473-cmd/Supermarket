@@ -1,1 +1,142 @@
-# Supermarket
+# Coding
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Market & Customer Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .section {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 10px;
+            background: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #1f6391;
+        }
+        audio, video {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+            max-width: 100%;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Super Market Section -->
+    <div class="section">
+        <h1>Super Market</h1>
+        <p>
+            A supermarket is a large, self-service retail store offering a wide variety of food 
+            (fresh produce, meat, dairy, packaged goods) and household items (cleaning supplies, toiletries)
+            under one roof, organized into aisles for a convenient, one-stop shopping experience, typically
+            featuring lower prices and a broad selection compared to smaller grocery stores, and often part of a chain.
+        </p>
+
+        <h2>Super Market Audio</h2>
+        <audio controls>
+            <source src="super market mp3.mpeg" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>Super Market Video</h2>
+        <video width="800" height="450" controls>
+            <source src="super market mp4.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <a href="#customer-section">Go to Customer Details</a>
+    </div>
+
+    <!-- Customer Details Section -->
+    <div class="section" id="customer-section">
+        <h1>Customer Details</h1>
+        <form>
+            <label for="firstname">Firstname:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="lastname">Lastname:</label>
+            <input type="text" id="lastname" name="lastname" required>
+
+            <label for="district">District:</label>
+            <input type="text" id="district" name="district" required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+
+            <label for="alt_mobile">Alternative Mobile Number:</label>
+            <input type="tel" id="alt_mobile" name="alt_mobile">
+
+            <label for="email">Mail ID:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
+# Website
+<img width="3" height="1" alt="image" src="https://github.com/user-attachments/assets/54c2b67d-441b-45ec-a48c-e98ec9565e36" />
+<img width="1613" height="715" alt="image" src="https://github.com/user-attachments/assets/794bbbbf-1ef6-4893-88e1-1f946cc2004d" />
+<img width="1585" height="784" alt="image" src="https://github.com/user-attachments/assets/4f078e92-afae-4b57-8fbb-46928390002f" />
+
+
+# Output
+https://priyanv473-cmd.github.io/Supermarket/
