@@ -133,7 +133,8 @@
 </html>
 
 # Website
-<img width="3" height="1" alt="image" src="https://github.com/user-attachments/assets/54c2b67d-441b-45ec-a48c-e98ec9565e36" />
+<img width="1801" height="318" alt="image" src="https://github.com/user-attachments/assets/810d3050-3648-406e-aa99-9ddc46e85a00" />
+
 <img width="1613" height="715" alt="image" src="https://github.com/user-attachments/assets/794bbbbf-1ef6-4893-88e1-1f946cc2004d" />
 <img width="1585" height="784" alt="image" src="https://github.com/user-attachments/assets/4f078e92-afae-4b57-8fbb-46928390002f" />
 
